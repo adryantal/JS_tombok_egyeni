@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+.szovegformazas1{
+    font-family: 'Comic Sans', Verdana;
+    color: plum;
+    text-shadow: 1px 1.5px 1.5px purple;
+    filter: drop-shadow(1px 1px 0.5px rgb(160, 0, 210, 0.4));
+}
+
+.szovegformazas2{
+    font-family: 'Comic Sans', Verdana;
+    color: purple;
+    font-size: 15px;
+   
+}
