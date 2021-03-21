@@ -100,7 +100,11 @@ function forditva() {
     var forditott = ID("forditott_sorrend");
     forditott.innerHTML = "3. feladat: A tömb elemei fordított sorrendben:<br>";
     for (var i = tomb.length - 1; i > -1; i--) {
+        if (i===0){
+            forditott.innerHTML += tomb[i];
+        }else{
         forditott.innerHTML += tomb[i] + ", ";
+    }
     }
 }
 
